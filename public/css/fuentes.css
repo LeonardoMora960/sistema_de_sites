@@ -1,0 +1,14 @@
+@font-face {
+	font-family:headline;
+	src:url(../fuentes/OpenSans/OpenSans-Regular.ttf);
+}
+
+@font-face {
+	font-family:headlinebold;
+	src:url(../fuentes/OpenSans/OpenSans-Light.ttf);
+}
+
+@font-face {
+	font-family:movistartext;
+	src:url(../fuentes/OpenSans/OpenSans-Regular.ttf);
+}

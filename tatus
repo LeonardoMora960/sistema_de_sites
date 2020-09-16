@@ -1,0 +1,143 @@
+[33mcommit a71ff35ddcdc2eb3bed3a776e90810f8e8756555[m
+Author: amconsultores <gbravo@amconsultores.com.pe>
+Date:   Tue May 19 17:58:15 2020 -0500
+
+    fix y feat: eliminar item enmantenimiento de datos, mostrar aviso de no existen registron y orderna segun el numero indicado.
+
+[33mcommit 07fb259a6f2209972721b6b47531d0edafa2e7c4[m
+Author: amconsultores <gbravo@amconsultores.com.pe>
+Date:   Tue May 19 17:07:18 2020 -0500
+
+    feat: no mostrar cuarto nivel si no hay item en dicho nivel
+
+[33mcommit 230d9a19a6531a300b8ca78cefa3ce88615258b3[m
+Author: amconsultores <gbravo@amconsultores.com.pe>
+Date:   Sat May 16 02:22:38 2020 -0500
+
+    subir y actualizar archivos
+
+[33mcommit bc2ec1aa719d26eca9fa5926890863ca198dfa6a[m
+Author: amconsultores <gbravo@amconsultores.com.pe>
+Date:   Fri May 15 02:55:19 2020 -0500
+
+    feat: subir archivo y actualizar existente
+
+[33mcommit 35e9a64f49a64646c962fd2ea49ffa6bc500d956[m
+Author: amconsultores <gbravo@amconsultores.com.pe>
+Date:   Fri May 15 01:32:54 2020 -0500
+
+    fix, feat: campos de radio buton y check list
+
+[33mcommit c59ff19693028a6bd9328c634da298e1e7f52bbd[m
+Author: amconsultores <gbravo@amconsultores.com.pe>
+Date:   Thu May 14 02:38:14 2020 -0500
+
+    feat: subir archivos
+
+[33mcommit 9a7cfc62a207fbe0c49441ef7469427333200855[m
+Author: amconsultores <gbravo@amconsultores.com.pe>
+Date:   Wed May 13 23:00:05 2020 -0500
+
+    fix: cambiar campo desplegable a otro tipo y actualizar requerido y númerico
+
+[33mcommit 097afcaa3b401779d0d7fff757901cc11e10310a[m
+Author: amconsultores <gbravo@amconsultores.com.pe>
+Date:   Wed May 13 03:03:35 2020 -0500
+
+    fix: guardar campos en el nivel documentos
+
+[33mcommit 6f0c40ae84f691d99acd1f159f4ea9408a5b0f1e[m
+Author: amconsultores <gbravo@amconsultores.com.pe>
+Date:   Wed May 13 02:56:44 2020 -0500
+
+    refactor: eliminar archivos innecesarios
+
+[33mcommit 28bbb64a84e57747a8fad515de7effb0f6382585[m
+Author: amconsultores <gbravo@amconsultores.com.pe>
+Date:   Wed May 13 02:54:15 2020 -0500
+
+    feat: mostar según nivel en documentos y añadir campo de subir archivo, primera fase
+
+[33mcommit 89929e24ee233721e2630387150fc024aed4894e[m
+Author: amconsultores <gbravo@amconsultores.com.pe>
+Date:   Tue May 12 23:49:58 2020 -0500
+
+    fx: tamaño de segunda columna y identificación repetida en fase
+
+[33mcommit d1cad9f9bc534e2b7d9ea5ea6580a0da495cd09b[m
+Author: amconsultores <gbravo@amconsultores.com.pe>
+Date:   Tue May 12 23:37:18 2020 -0500
+
+    feat: páginador de campos creados
+
+[33mcommit 0aff914937e905723517f1507dc5b8a9ba0612b4[m
+Author: amconsultores <gbravo@amconsultores.com.pe>
+Date:   Tue May 12 22:38:16 2020 -0500
+
+    feat: nuevo estilo del menu por niveles, campos númericosy permitir cambiar de tipo de campos
+
+[33mcommit b839f9113ee2a53e87323b522327834e5efa45a3[m
+Author: amconsultores <gbravo@amconsultores.com.pe>
+Date:   Tue May 12 00:13:44 2020 -0500
+
+    fix: nombre tablas de selecion
+
+[33mcommit 2a60cd5a80a2ab0b89c8010e84f36b2661b5a2fd[m
+Author: amconsultores <gbravo@amconsultores.com.pe>
+Date:   Mon May 11 23:34:37 2020 -0500
+
+    fix: modulos: mantenimiento, buscar local, importacion masiva
+
+[33mcommit 4371ecf7a5b6093c8540ee7238cf4cfb3328470f[m
+Author: amconsultores <gbravo@amconsultores.com.pe>
+Date:   Sat May 9 00:25:29 2020 -0500
+
+    fix: buscar locales registrados
+
+[33mcommit 70a4a92b989aff0f9f541508f01404c496140618[m
+Author: amconsultores <gbravo@amconsultores.com.pe>
+Date:   Fri May 8 22:02:39 2020 -0500
+
+    feat: poder consultar y editar valoresen los campos y mejoras generales
+
+[33mcommit b1190406cabd918b4e9c2589e5a3c4da2801a026[m
+Author: amconsultores <gbravo@amconsultores.com.pe>
+Date:   Fri May 8 01:21:20 2020 -0500
+
+    feat: permitir guardar datos de los campos y creado la interfaz para editar
+
+[33mcommit f92a55f809c3626bc2354fccb030a9097b3a2f0f[m
+Author: amconsultores <gbravo@amconsultores.com.pe>
+Date:   Thu May 7 22:18:34 2020 -0500
+
+    fix: ordernar por id de creacion y corregir los datos temporales de otros niveles
+
+[33mcommit 24f7a3fa7a10ddeada54298922da121b4813bca5[m
+Author: amconsultores <gbravo@amconsultores.com.pe>
+Date:   Thu May 7 19:25:19 2020 -0500
+
+    feat: relacion de cuarto y tercer nivel al registrar
+
+[33mcommit be08efaa91f09cd3bfa17f52320813e29daab954[m
+Author: amconsultores <gbravo@amconsultores.com.pe>
+Date:   Thu May 7 17:21:29 2020 -0500
+
+    feat: cuarto y quinto nivel en los formularios
+
+[33mcommit fe1f15bc7c5dfc7f30e01fe777da0c579d492195[m
+Author: amconsultores <gbravo@amconsultores.com.pe>
+Date:   Thu May 7 01:36:40 2020 -0500
+
+    feat: relacion de campos  con niveles y mejoras generales
+
+[33mcommit 2b5aaedbf39bac0cf0b77bdee63412a3d6d9fca8[m
+Author: amconsultores <gbravo@amconsultores.com.pe>
+Date:   Wed May 6 00:24:02 2020 -0500
+
+    feat: registro y visuacizaciòn del segundo nivel
+
+[33mcommit 0e7d4b4551252c6811419c2d5eb7a5e978f8dab6[m
+Author: amconsultores <gbravo@amconsultores.com.pe>
+Date:   Tue May 5 17:58:44 2020 -0500
+
+    init: proyecto base

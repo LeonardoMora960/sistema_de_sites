@@ -1,0 +1,146 @@
+/* CSS Document */
+body{
+	margin: 0px;
+	padding: 0px;
+}
+#main_login{
+	width:100%;
+	margin:0px auto;
+}
+
+#main_login header .top{
+	width:100%;
+	height: 136px;
+	background:url(../images/cabecera.jpg) no-repeat;
+	background-position:top;
+}
+#main_login header .header{
+	width:100%;
+	height:24px;
+}
+#main_login section{
+	width:100%;
+	height:400px;
+	background:url(../images/log.jpg) no-repeat;
+	background-position: 0px -75px;
+}
+.hRight, .hLeft{
+	width:50%;
+	float:left;
+	height: 139px;
+	position: relative;
+}
+.hLeft .logo{
+	margin-top: 30px;
+	display: block;
+	margin-left: 30px;
+	width: 168px;
+}
+.hRight .fecha{
+	color: white;
+	position: absolute;
+	right: 36px;
+	top: 36px;
+	font-family: Arial;
+	font-size: 13px;
+}
+.hRight .titulo{
+	position: absolute;
+	right: 90px;
+	top: 60px;
+	font-size: 35px;
+	color: white;
+}
+.hLeft .logo span{
+	display:none;
+}
+section .sLeft, section .sRight{
+	float:left;
+	width:50%;
+}
+section .sLeft{
+	
+}
+
+section .sRight{
+	position: relative;
+}
+.formLogin{
+	position: absolute;
+	right: 130px;
+	top: 100px;
+}
+
+.tituloForm{
+	font-size:35px;
+	color:#006f9d;
+}
+#loginIn{
+	
+}
+#loginIn input{
+	width: 250px;
+	height: 24px;
+	border-radius: 2px;
+	border: 1px solid #D5D5D5;
+	font-family:Arial;
+	font-size:12px;
+}
+.labelLogin{
+	font-family:Arial;
+	font-size:13px;
+	color:#006f9d;
+}
+.olvido{
+	color:#006f9d;
+	font-family:Arial;
+	font-size:12px;
+}
+.olvideClave{
+	color:#006f9d;
+}
+.btn{
+	height:30px;
+	width:112px;
+	color: #ffffff;
+    font-family: Arial;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+	background-color:#006f9d;
+	border: 0px;
+}
+.exito{
+	color: #999999;
+    font-family: Tahoma;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+}
+footer{
+	height:24px;
+	background-image:url(../images/fd_pie.jpg);
+	background-position:center top;
+}
+footer .copy{
+	text-align: center;
+	font-family: Arial;
+	font-size: 11px;
+	color: #FFF;
+	padding-top: 6px;
+}
+.error{
+	color: #ff0000;
+	font-family: Arial;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	display: block;
+	background-image: url(../images/Alerta.gif);
+	background-position: left top;
+	padding: 4px 32px;
+	background-repeat: no-repeat;
+}

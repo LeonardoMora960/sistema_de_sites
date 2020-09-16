@@ -1,0 +1,234 @@
+/* CSS Document */
+body{
+	margin:0px;
+	padding:0px;
+}
+#main > header{
+	width:100%;
+	background-color:#000;
+}
+#main > header > .top{
+	height:36px;
+	margin:0px auto;
+	width:930px;
+	position:relative;
+}
+#main > header > .top > .tLeft{
+	color: #FFF;
+	font-family: Arial;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	background-image: url(../images/Icono-de-usuario.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding: 6px 0px 0px 25px;
+	position: absolute;
+	top: 6px;
+}
+#main > header > .top > .tRight{
+	color: #FFF;
+	font-family: Arial;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	background-image: url(../images/seguridad.png);
+	background-repeat: no-repeat;
+	background-position:right top;
+	padding: 6px 25px 0px 0px;
+	position: absolute;
+	top: 7px;
+	right:0px;
+}
+section{
+	min-height: 600px;
+	background-image: url(../images/bg.jpg);
+	background-color: #007ea1;
+	background-repeat: repeat-x;
+	width: 100%;
+}
+.subTop{
+	background-color:#063a4a;
+	height:34px;
+	width:930px;
+	margin:0px auto;
+	position:relative;
+}
+.manual{
+	
+	background-image: url(../images/Icono-de-descarga.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	right: 155px;
+	padding-left: 30px;
+	font-family: Arial;
+	font-size: 12px;
+	top: 10px;
+	
+}
+.manual a{
+	text-decoration:none;
+	color: #51c6d9;
+}
+.stLine{
+	color: #51c6d9;
+	position: absolute;
+	right: 130px;
+	font-family: Arial;
+	font-size: 14px;
+	top: 8px;
+}
+.pregunta{
+	color: #51c6d9;
+	background-image: url(../images/Icono-de-ayuda.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	right: 45px;
+	padding-left: 30px;
+	font-family: Arial;
+	font-size: 12px;
+	top: 10px;
+	text-decoration:none;
+}
+.pregunta a{
+	text-decoration:none;
+	color: #51c6d9;
+}
+#header{
+	height:138px;
+	margin:0px auto;
+	width:930px;
+}
+.logo span{
+	display:none;
+}
+.hLeft, .hRight{
+	width:465px;
+	float:left;
+	height: 138px;
+	position:relative;
+}
+.hRight .logo{
+	position: absolute;
+	right: 0px;
+	top: 45px;
+}
+.hLeft .titulo{
+	font-size: 35px;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+	color:#FFF;
+	margin-top: 13px;
+	margin-left: 30px;
+}
+.nav{
+	margin: 0px 0px 35px 0px;
+	padding:0px;
+}
+.nav > li{
+	padding:0px;
+	margin:0px;
+	list-style:none;
+	float:left;
+	position:relative;
+	
+}
+.nav > li > a{
+	color: #5cd2ed;
+	font-size: 20px;
+	font-family: Arial;
+	text-decoration: none;
+	background-image: url(../images/menu.png);
+	background-repeat: no-repeat;
+	background-position: 112px 13px;
+	padding: 5px 0px 22px 11px;
+	width: 120px;
+	display: block;
+}
+.nav > li > a:hover{
+}
+.nav > li > ul{
+	position: absolute;
+	left: 0px;
+	top: 50px;
+	margin: 0px;
+	padding: 20px 0px;
+	background:#FFF;
+	display:none;
+	width: 250px;
+}
+.nav > li > ul > li{
+	list-style: none;
+	padding: 5px 20px;
+}
+.nav > li > ul > li > a {
+	font-family:Arial;
+	font-size:14px;
+	text-decoration:none;
+	color: #0086c3;
+	padding: 3px 5px;
+	display: block;
+}
+.nav > li > ul > li > a:hover {
+	background-color:#f0f1f2;
+}
+.home{
+	width: 68px;
+	height: 50px;
+	display: block;
+	float: left;
+	background-image: url(../images/home-blanco.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	margin-top: -10px;
+}
+
+.content{
+	width:930px;
+	margin:0px auto;
+	background:#FFF;
+	height:540px;
+}
+
+footer{
+	background-color:#00527a;
+	height:40px;
+	width:930px;
+	margin:0px auto;
+	position:relative;
+}
+footer img{
+	position:absolute;
+	right: 20px;
+	top: 12px;
+}
+.iniciar{
+	width: 93px;
+	display: block;
+	text-align: center;
+	background: #007ea2;
+	color: #FFF;
+	text-decoration: none;
+	padding: 9px 0px;
+	float: right;
+	margin-right: 40px;
+	margin-top: 50px;
+}
+.slider{
+	width: 930px;
+	margin: 0px auto;
+	height: 294px;
+}
+h3{
+	color:#005e7b;
+	margin:0px;
+	padding: 30px 0px 0px 40px;
+	font-size: 21px;
+}
+.content p {
+	padding: 5px 40px;
+	font-family: Arial;
+	font-size: 13px;
+	text-align: justify;
+}

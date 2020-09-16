@@ -1,0 +1,147 @@
+html, body, div, span, applet, object, iframe, table, caption,
+tbody, tfoot, thead, tr, th, td, del, dfn, em, font, img, ins,
+kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr,
+acronym, address, big, cite, code, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend {
+    vertical-align: baseline;
+    font-family: inherit;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+:focus {
+    outline: 0;
+}
+body {
+    background: white;
+    line-height: 1;
+    color: black;
+}
+ol, ul {
+    list-style: none;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+caption, th, td {
+    font-weight: normal;
+    text-align: left;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content: "";
+}
+blockquote, q {
+    quotes: "" "";
+}
+hr {
+    margin: 0;  
+    padding: 0;  
+    border: 0;  
+    color: #000;  
+    background-color: #000;  
+    height: 1px  
+}
+input, textarea {
+     margin: 0;
+     padding: 0
+}
+input, select {
+    vertical-align:middle;
+}
+
+input[type='button']{
+  cursor: pointer;
+}
+
+/* == clearfix == */
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.clearfix {display: inline-block;}
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* alineaciones */
+.ac{text-align:center !important;}
+.al{text-align:left !important;}
+.ar{text-align:right !important;}
+/* float */
+.fl{float:left !important;}
+.fr{float:right !important;}
+.fn{float:none !important;}
+
+.pl_20{padding-left:20px;}
+.pl_15{padding-left:15px !important;}
+.pl_10{padding-left:10px;}
+.pl_5{padding-left: 5px !important;}
+.pr_15{padding-right: 15px !important;}
+.pall_10{padding:10px !important;}
+.pall_5{padding:5px !important;}
+.pall_2{padding:2px !important;}
+.pall_0{padding:0px !important;}
+
+/* display */
+.db{display:block;}
+.dn{display:none;}
+/* otros */
+.vm{vertical-align:middle !important;}
+.tt_u{text-transform:uppercase;}
+.tt_n{text-transform:none !important;}
+.pr{position:relative;}
+.pa{position:absolute;}
+.pointer{cursor:pointer;}
+.tdu{text-decoration: underline;}
+.tdn{text-decoration: none !important;}
+
+/* font size */
+.fs_9{font-size:9px !important;}
+.fs_10{font-size:10px !important;}
+.fs_11{font-size:11px !important;}
+.fs_12{font-size:12px !important;}
+.fs_13{font-size:13px !important;}
+.fs_14{font-size:14px !important;}
+.fs_15{font-size:15px !important;}
+.fs_16{font-size:16px !important;}
+.fs_18{font-size:18px !important;}
+.fs_20{font-size:20px !important;}
+.nbl{border-left: 0px !important;}
+
+/* mensaje div */
+.messagebox_red{
+  border: 1px solid;
+  margin: 10px 0px;
+  padding:5px 4px 5px 35px;
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  width: 500px;
+  text-align: center;
+}
+.messagebox_red{
+  color: #FFF;
+  background-image: url("../imagen/png/icon_save.png");
+  background-color: #CC0000;
+}
+
+/* fila seleccionada */
+.fila_seleccionada{
+  background-color: #CEE3F1;
+}
+
+/* campo importante (*) */
+.importante{
+ color:red;
+ float: left;
+ line-height: 25px;
+ margin-left: 10px;
+}
+
+.placeholder{color: #aaa;}
